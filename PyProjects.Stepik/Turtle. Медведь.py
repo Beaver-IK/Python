@@ -1,0 +1,33 @@
+import turtle
+
+turtle.pensize(2)
+r = 80
+
+turtle.speed(0)
+turtle.circle(r)
+turtle.circle(r * 2)
+turtle.penup()
+turtle.goto(-80.00,160.00)
+turtle.dot(40)
+turtle.goto(80.00,160.00)
+turtle.dot(40)
+turtle.goto(-113.14, 273.14)
+turtle.pendown()
+turtle.left(45)
+turtle.circle(40)
+turtle.penup()
+turtle.goto(113.14, 273.14)
+turtle.pendown()
+turtle.right(90)
+turtle.circle(40)
+turtle.penup()
+turtle.goto(0, 0)
+turtle.setheading(0)
+turtle.left(90)
+turtle.forward(40)
+turtle.pendown()
+turtle.forward(r)
+turtle.right(90)
+turtle.circle(10)
+
+turtle.done()
